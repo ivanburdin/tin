@@ -1,0 +1,42 @@
+{
+  "name": "My",
+  "version": "1.0",
+  "author": "CERT-BDF",
+  "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
+  "license": "AGPL-V3",
+  "description": "Send an email with information from a TheHive case or alert",
+  "dataTypeList": ["thehive:case", "thehive:alert"],
+  "command": "My/my.py",
+  "baseConfig": "My" ,
+  "configurationItems": [
+    {
+      "name": "host",
+      "description": "host",
+      "type": "string",
+      "multi": false,
+      "required": true
+    },
+    {
+      "name": "port",
+      "description": "port",
+      "type": "string",
+      "multi": false,
+      "required": true,
+      "defaultValue": "22"
+    },
+    {
+      "name": "user",
+      "description": "port",
+      "type": "string",
+      "multi": false,
+      "required": true
+    },
+    {
+      "name": "passw",
+      "description": "port",
+      "type": "string",
+      "multi": false,
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+20180915T12:33:35Z user LOKI: Notice: MODULE: Init MESSAGE: Starting Loki Scan VERSION: 0.28.0 SYSTEM: user TIME: 20180915T12:33:35Z PLATFORM:     PROC: x86_64 ARCH: 64bit 
+20180915T12:33:35Z user LOKI: Notice: MODULE: PESieve MESSAGE: Cannot find PE-Sieve in expected location /tmp/Loki/tools/pe-sieve64.exe SOURCE: https://github.com/hasherezade/pe-sieve
+20180915T12:33:35Z user LOKI: Info: MODULE: Init MESSAGE: File Name Characteristics initialized with 0 regex patterns
+20180915T12:33:35Z user LOKI: Info: MODULE: Init MESSAGE: C2 server indicators initialized with 0 elements
+20180915T12:33:35Z user LOKI: Info: MODULE: Init MESSAGE: Malicious MD5 Hashes initialized with 0 hashes
+20180915T12:33:35Z user LOKI: Info: MODULE: Init MESSAGE: Malicious SHA1 Hashes initialized with 0 hashes
+20180915T12:33:35Z user LOKI: Info: MODULE: Init MESSAGE: Malicious SHA256 Hashes initialized with 0 hashes
+20180915T12:33:35Z user LOKI: Info: MODULE: Init MESSAGE: False Positive Hashes initialized with 0 hashes
+20180915T12:33:35Z user LOKI: Info: MODULE: Init MESSAGE: Processing YARA rules folder /tmp/Loki/./signature-base/yara
+20180915T12:33:35Z user LOKI: Info: MODULE: Init MESSAGE: Initializing all YARA rules at once (composed string of all rule files)
+20180915T12:33:35Z user LOKI: Info: MODULE: Init MESSAGE: Initialized 0 Yara rules
+20180915T12:33:35Z user LOKI: Info: MODULE: Init MESSAGE: Reading private rules from binary ...
+20180915T12:33:35Z user LOKI: Error: MODULE: Init MESSAGE: Error reading Hash file: /tmp/Loki/./signature-base/misc/file-type-signatures.txt
+20180915T12:33:35Z user LOKI: Info: MODULE: Init MESSAGE: Current user is root - very good
+20180915T12:33:35Z user LOKI: Info: MODULE: FileScan MESSAGE: Scanning /tmp ...  
+20180915T12:33:35Z user LOKI: Notice: MODULE: Results MESSAGE: Results: 0 alerts, 0 warnings, 2 notices
+20180915T12:33:35Z user LOKI: Result: MODULE: Results MESSAGE: SYSTEM SEEMS TO BE CLEAN.
+20180915T12:33:35Z user LOKI: Info: MODULE: Results MESSAGE: Please report false positives via https://github.com/Neo23x0/signature-base
+20180915T12:33:35Z user LOKI: Notice: MODULE: Results MESSAGE: Finished LOKI Scan SYSTEM: user TIME: 20180915T12:33:35Z
