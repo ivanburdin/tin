@@ -1,0 +1,20 @@
+{
+  "name": "Scanner",
+  "version": "1.0",
+  "author": "CERT-BDF",
+  "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
+  "license": "AGPL-V3",
+  "description": "Send an email with information from a TheHive case or alert",
+  "dataTypeList": ["thehive:case", "thehive:alert"],
+  "command": "Scanner/scanner.py",
+  "baseConfig": "Scanner" ,
+  "configurationItems": [
+    {
+      "name": "hosts",
+      "description": "list of hosts",
+      "type": "string",
+      "multi": true,
+      "required": true
+    }
+  ]
+}
