@@ -8,7 +8,7 @@ import os
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 
-class Mailer(Responder):
+class Scanner(Responder):
     def __init__(self):
         Responder.__init__(self)
 
